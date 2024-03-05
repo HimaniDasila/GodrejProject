@@ -75,3 +75,9 @@ window.addEventListener('click', function(e){
     document.querySelector('body .cb-modal-container.cb-image-modal').classList.remove("cb-show-modal");
   }
 });
+
+window.addEventListener('load', function(){
+  setTimeout(() => {
+    document.querySelector('.side-bar .callback-btn').click();
+  }, 1000);
+})
